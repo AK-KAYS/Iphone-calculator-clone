@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10em;
+}
+input{
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  height:auto;
+  width: 200px;
+}
+button{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgb(34,34,34);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  opacity: 0.4;
+}
+.first{
+  background-color: lightgrey;
+  color: black;
+}
+.last{
+  background-color: orange;
+}
+#zero_btn{
+  width: 100px;
+}
